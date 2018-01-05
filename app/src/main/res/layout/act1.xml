@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context="com.example.wyx.myapplication.MainActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="操  作  系  统"
+        android:textColor="#ffffff"
+        android:textSize="38sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnWinXP"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="WindowsXP"
+            android:textColor="#ffffff"
+            android:background="#00000000"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="-------------------------"
+            android:textSize="25sp"/>
+
+
+        <Button
+            android:id="@+id/btnWin7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Windows7"
+            android:textColor="#ffffff"
+            android:background="#00000000"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="-------------------------"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/btnW10"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Windows10"
+            android:textColor="#ffffff"
+            android:background="#00000000"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="-------------------------"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/btnLi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Linux"
+            android:textColor="#ffffff"
+            android:background="#00000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="-------------------------"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/btnOS"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Mac OS"
+            android:textColor="#ffffff"
+            android:background="#00000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="-------------------------"
+            android:textSize="25sp"/>
+
+
+        <Button
+            android:id="@+id/btnA"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Android"
+            android:textColor="#ffffff"
+            android:background="#00000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="-------------------------"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/btnI"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="iOS"
+            android:textColor="#ffffff"
+            android:background="#00000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="-------------------------"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/btnS"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Symbian"
+            android:textColor="#ffffff"
+            android:background="#00000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="-------------------------"
+            android:textSize="25sp"/>
+    </LinearLayout>
+</LinearLayout>

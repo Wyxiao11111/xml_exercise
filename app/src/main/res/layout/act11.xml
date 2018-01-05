@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context="com.example.wyx.myapplication.MainActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="77dp"
+        android:text="Symbian"
+        android:textColor="#ffffff"
+        android:textSize="38sp" />
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="     Symbian系统是塞班公司为手机而设计的操作系统。2008年12月2日，塞班公司被诺基亚收购。2011年12月21日，诺基亚官方宣布放弃塞班品牌。由于缺乏新技术支持，塞班的市场份额日益萎缩。2013年1月24日，诺基亚宣布，今后将不再发布塞班系统的手机。"
+        android:textSize="25sp"/>
+
+
+
+</LinearLayout>

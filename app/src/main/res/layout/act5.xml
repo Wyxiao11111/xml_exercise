@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context="com.example.wyx.myapplication.MainActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="77dp"
+        android:text="Windows 7"
+        android:textColor="#ffffff"
+        android:textSize="38sp" />
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Windows 7也是由微软公司（Microsoft）开发的操作系统，可供笔记本电脑 平板电脑 多媒体中心等使用。分为：入门版、家庭普通版、家庭高级版、专业版、企业版、旗舰版。   "
+        android:textSize="25sp"/>
+
+
+
+</LinearLayout>

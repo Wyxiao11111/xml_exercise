@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context="com.example.wyx.myapplication.MainActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="77dp"
+        android:text="市场预估"
+        android:textColor="#ffffff"
+        android:textSize="38sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="         毋庸置疑，Windows操作系统的地位在短期内是无法被撼动的。但是从调查结果来看，macOS与Linux系统，特别是macOS，也占有着一定市场的。而且，随着人们对于计算机的了解的加深，我相信越来越多的人回去主动选择适合自己的操作系统。操作系统的市场的未来一定会更加多样化。"
+        android:textSize="25sp"/>
+</LinearLayout>

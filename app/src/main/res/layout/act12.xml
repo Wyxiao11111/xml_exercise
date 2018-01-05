@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context="com.example.wyx.myapplication.MainActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="77dp"
+        android:text="结论"
+        android:textColor="#ffffff"
+        android:textSize="38sp" />
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="显然Windows系统占据了计算器操作系统的龙头地位，其用户最为庞大。使用Linux系统相对小众。且本次调查中使用Linux操作系统的人均为我校及武汉大学计算机相关专业学生。而且，本次调查中发现。大多用户不会自主选择操作系统，有更换操作系统的经历的，基本上也都是原操作系统更新升级，较为被动的更换系统。"
+        android:textSize="25sp"/>
+
+
+
+</LinearLayout>
